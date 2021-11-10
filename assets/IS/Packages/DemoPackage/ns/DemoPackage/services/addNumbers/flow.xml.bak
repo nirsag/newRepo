@@ -292,7 +292,6 @@
   <COMMENT>call get last error service</COMMENT>
 </INVOKE>
 </SEQUENCE>
-</SEQUENCE>
 
 <INVOKE TIMEOUT="" SERVICE="pub.flow:clearPipeline" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
@@ -378,4 +377,5 @@
 </MAPSET>
 </MAP>
 </INVOKE>
+</SEQUENCE>
 </FLOW>
