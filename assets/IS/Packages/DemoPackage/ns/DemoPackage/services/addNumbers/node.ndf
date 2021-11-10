@@ -91,7 +91,8 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment">add 2 numbers   </value>
+  <value name="node_comment">add 2 numbers   
+added clearpipeline service</value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
   <value name="prefetch">no</value>
