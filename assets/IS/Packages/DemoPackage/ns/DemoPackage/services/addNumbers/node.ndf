@@ -91,7 +91,7 @@
       <value name="modifiable">true</value>
     </record>
   </record>
-  <value name="node_comment">add 2 numbers
+  <value name="node_comment">add 2 numbers 
 </value>
   <value name="stateless">yes</value>
   <value name="caching">no</value>
@@ -101,7 +101,6 @@
   <value name="audit_level">off</value>
   <value name="check_internal_acls">no</value>
   <value name="icontext_policy">$null</value>
-  <value name="svcInvkURLAlias"></value>
   <value name="system_service">no</value>
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
