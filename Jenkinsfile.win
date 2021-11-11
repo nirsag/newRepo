@@ -41,7 +41,7 @@ pipeline {
         stage('ISCCR-Code Review') {
             steps {
                 echo "ISCCR static code review"
-                bat "call C:/SAGTools/isccr/GCS_IS_ContinuousCodeReview_v8.1.0/CodeReview.cmd -Dcode.review.directory=${env.WORKSPACE}/assets/IS/Packages -Dcode.review.runmode=MULTI -Dcode.review.pkgprefix=Fibo,Demo -Dcode.review.folder-prefix=Fibo,Demo"
+                bat "call C:/SAGTools/isccr/GCS_IS_ContinuousCodeReview_v8.1.0/CodeReview.cmd -Dcode.review.directory=${env.WORKSPACE}/assets/IS/Packages -Dcode.review.runmode=MULTI -Dcode.review.pkgprefix=Demo -Dcode.review.folder-prefix=Demo"
             }
         }
     }
